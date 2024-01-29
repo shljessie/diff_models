@@ -1,0 +1,9 @@
+## self_guidance.py
+
+SelfGuidanceEdits
+
+SelfGuidanceSDXLPipeline
+
+SelfGuidanceAttnProcessor
+
+SelfGuidanceAttnProcessor2_0
