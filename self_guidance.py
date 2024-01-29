@@ -8,8 +8,8 @@ Original file is located at
 
 This notebook contains a complete reproduction of all the functions used in the self-guidance paper. Hyperparameters such as guidance strength per-term, choice of layers for the attention and appearance features, guidance steps, and so on have not been tuned for SDXL, so result quality may not match the paper on some edits.
 """
-# pip3 install --upgrade diffusers\[torch\]==0.21.1 gradio==4.2.0 transformers==4.35.0 einops==0.7.0
-
+#pip3 install --upgrade diffusers\[torch\]==0.3.0 gradio==3.0.12 transformers==4.18.0 einops==0.4.1
+# pip install --upgrade diffusers[torch]==0.21.1 gradio==4.2.0 transformers==4.35.0 einops==0.7.0
 #@title Self-guidance modules
 from collections import defaultdict
 from diffusers import DiffusionPipeline
